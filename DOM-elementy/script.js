@@ -93,6 +93,24 @@ window.addEventListener('load', function () {
 
 //Zadanie8*
 
+window.addEventListener('load', function () {
+    function makeObject(string) {
+        let obj = {
+            newClass: string
+        };
+
+        return obj;
+    }
+});
+
+function readAndAssign(obj) {
+    let div = document.getElementById("myDiv");
+    let newClass = obj.newClass;
+    div.classList.add(newClass);
+}
+
+let myObj = makeObject("string_z_parametru");
+readAndAssign(myObj);
 
 
 //Zadanie9
