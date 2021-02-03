@@ -101,7 +101,6 @@ window.addEventListener('load', function () {
 
         return obj;
     }
-});
 
 function readAndAssign(obj) {
     let div = document.getElementById("myDiv");
@@ -112,6 +111,7 @@ function readAndAssign(obj) {
 let myObj = makeObject("string_z_parametru");
 readAndAssign(myObj);
 
+});
 
 //Zadanie9
 
